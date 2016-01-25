@@ -1,0 +1,9 @@
+# set your webhook url
+url = "{webhook url}"
+
+[payload]
+    channel    = "#{channel name}" # set some channel you like
+    username   = "golang-slack-post"
+    text       = "default text by webhook"
+    icon_emoji = ":ghost:"
+    link_names = 1

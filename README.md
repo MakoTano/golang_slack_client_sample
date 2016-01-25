@@ -1,5 +1,5 @@
 # golang_slack_client_sample
-A sample for command line slack post client.
+A sample of command line slack post client.
 
 # usage
 - Setup your slack incoming webhook. see https://api.slack.com/incoming-webhooks

@@ -28,8 +28,8 @@ type Payload struct {
 // NewSlack returns a initialized Slack struct by config.toml
 func NewSlack() (*Slack, error) {
 	var s = &Slack{
-		Payload{},
-		"",
+		Payload: Payload{},
+		URL:     "",
 	}
 
 	buf, err := s.readConfigToml()
